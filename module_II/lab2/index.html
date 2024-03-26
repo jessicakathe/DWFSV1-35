@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- HTML: Basic Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Page with Basic Tags</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box Model Example</title>
+<style>
+  /* CSS3 Box Model */
+  .box {
+    background-color: #f2f2f2;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #a7e7a7;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* CSS3 Box Shadow */
+    border-radius: 10px; /* CSS3 Rounded Corners */
+  }
+</style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <h2>This is an h2 tag</h2>
-    <h3>This is an h3 tag</h3>
-    <h4>This is an h4 tag</h4>
-    <h5>This is an h5 tag</h5>
-    <h6>This is an h6 tag</h6>
 
-    <p>This is a paragraph of text. Below this, you'll see a line break followed by a horizontal rule.</p>
-    <br>
-    <hr>
-    <p>After the horizontal rule, you'll find another paragraph. This is how you can separate content visually on your webpage.</p>
+<div class="box">
+  <p>This is a box. It includes padding, border, and margin as part of the box model.</p>
+</div>
+
 </body>
 </html>

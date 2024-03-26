@@ -4,10 +4,71 @@
     <!-- HTML page structure -->
     <meta charset="utf-8">
     <title>My title</title>
+    <style>
+        /* Element Selector */
+        p {
+            color: blue;
+        }
+
+        /* ID Selector */
+        #special {
+            font-weight: bold;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: yellow;
+        }
+
+        /* Universal Selector */
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Attribute Selector */
+        [data-info] {
+            border: 1px solid black;
+        }
+
+        /* Pseudo-class Selector */
+        a:hover {
+            color: red;
+        }
+
+        /* Pseudo-element Selector */
+        p::first-letter {
+            font-size: 200%;
+        }
+
+        /* Grouping Selector */
+        h1, h2, h3 {
+            text-align: center;
+        }
+
+        /* Descendant Combinator */
+        div p {
+            margin-left: 20px;
+        }
+
+        /* Child Combinator */
+        div > p {
+            color: green;
+        }
+
+        /* Adjacent Sibling Combinator */
+        h1 + p {
+            font-size: 18px;
+        }
+
+        /* General Sibling Combinator */
+        h1 ~ p {
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <body>
-
     <section>
+        <h1>The title</h1>
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
             Iste consequatur nam mollitia nobis eligendi odio 
@@ -15,6 +76,16 @@
                 Facere quod qui quibusdam doloribus, 
                 porro consequuntur molestiae?
         </p>
+
+        <p id="special">This paragraph is styled with ID selector.</p>
+        <p class="highlight">This paragraph is styled with class selector.</p>
+
+        <div>
+            <p data-info="true">This paragraph is styled with attribute selector.</p>
+            <p>This paragraph is inside a div.</p>
+            <p>This is another paragraph inside the same div.</p>
+        </div>
+        <a href="#">This is a link. Hover over me!</a>
     </section>
 </body>
 </html>
