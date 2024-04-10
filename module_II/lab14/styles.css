@@ -1,0 +1,19 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(56, 51, 64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name:movement;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    /* animation-direction: reverse; right to left */
+}
+
+@keyframes movement {
+    0% { top: 90%; }
+    50% { top: 10%; }
+    100% { top: 90%; }
+}
