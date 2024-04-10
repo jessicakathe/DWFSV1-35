@@ -1,0 +1,22 @@
+  /* Define CSS variables */
+  :root {
+    --primary-color: #0074D9;
+    --secondary-color: #FF4136;
+}
+ 
+ /* Style the button */
+ .my-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    /*transition: margin-left 4s ease-in-out 1s;  Add transition effect */
+    transition: background-color 0.8s ease-in-out;  /*Add transition effect */
+}
+
+/* Change button color on hover */
+.my-button:hover {
+    background-color: var(--secondary-color);
+}
