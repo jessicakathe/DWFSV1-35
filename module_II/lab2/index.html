@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box Model Example</title>
+<style>
+  /* CSS3 Box Model */
+  .box {
+    background-color: #f2f2f2;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #a7e7a7;
+    margin: 10px;
+
+    /*
+    CSS3 Border-radius (rounded corners)
+    Method of making the border corners round. 
+    Covers support for the shorthand border-radius as well as the long-hand properties 
+    (e.g. border-top-left-radius)
+    source: https://caniuse.com/?search=border-radius    
+    */
+
+    -webkit-box-shadow: 0 10px 18px 18px rgba(25, 63, 34, 0.4);
+    -moz-box-shadow: 0 10px 18px 18px rgba(25, 63, 34, 0.4);
+    box-shadow: 0 10px 18px 18px rgba(25, 63, 34, 0.4); /* CSS3 Box Shadow */
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 10px; /* CSS3 Rounded Corners */
+
+    /* Some solutions for prefix https://projects.verou.me/prefixfree/ */
+  }
+</style>
+</head>
+<body>
+  <div class="box">
+    <p>This is a box. It includes padding, border, and margin as part of the box model.</p>
+  </div>
+</body>
+</html>

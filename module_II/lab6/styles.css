@@ -1,0 +1,38 @@
+  /* Set background color for the entire page */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background image */
+header {
+    background-image: url("https://via.placeholder.com/360x100.png/BB5500");
+    background-size: cover; /* Adjust to your needs */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the main content area with a different background image */
+main {
+    background-image: url("https://via.placeholder.com/412x100.png/55AA00");
+    background-size: cover; /* Adjust to your needs */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style a button */
+.btn {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+.btn:hover {
+    background-color: #0056b3;
+}

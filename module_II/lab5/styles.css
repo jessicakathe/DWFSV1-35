@@ -1,0 +1,37 @@
+/* Set background color for the entire page */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: rgb(red, green, blue);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the main content area */
+main {
+    background-color:rgba(red, green, blue, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style a button */
+.btn {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+.btn:hover {
+    background-color: #9dacbd;
+}
