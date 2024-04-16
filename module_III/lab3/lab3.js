@@ -1,6 +1,6 @@
 /**
  *     @author Alejandro Romero <alejo8591@gmail.com>
- *     @fileOverview This script use Arithmetic operators
+ *     @fileOverview This script use Arithmetic Operators
  *     @licence BSD 3-Clause License
  */
 

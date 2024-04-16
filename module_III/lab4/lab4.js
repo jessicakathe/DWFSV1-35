@@ -1,6 +1,6 @@
 /**
  *     @author Alejandro Romero <alejo8591@gmail.com>
- *     @fileOverview This script use Assignment operators
+ *     @fileOverview This script use Assignment Operators
  *     @licence BSD 3-Clause License
  */
 
